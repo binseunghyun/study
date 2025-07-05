@@ -1,0 +1,11 @@
+#json파일을 "쓰기"모드로 열고 파일을 f라는 이름으로 사용
+with open("accounts.json", "w") as f:
+
+#json형식으로 저장하기 - accounts라는 딕셔너리를 f라는 파일에 json형식으로 저장
+json.dump(accounts, f)
+
+#딕셔너리에 있는 내용을 파일에 저장하지않고 문자열로 변환
+json.dumps(accounts)
+
+#json파일을 파이썬으로 변환
+json.load()
