@@ -1,0 +1,7 @@
+#Byte ordering
+
+##Big-endian
+큰 바이트부터 낮은주소에 저장
+
+##Little-endian
+작은 바이트부터 낮은 주소에 저장
